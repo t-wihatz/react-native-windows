@@ -5,8 +5,9 @@
  */
 
 import React = require('react');
-import {Text, View, Button} from 'react-native';
-import {Alert} from '../index.windows';
+import {Text, View, Button, Alert} from 'react-native';
+
+//import {Alert} from '../index.windows';
 
 class AlertExample extends React.Component {
   state = {
@@ -78,7 +79,7 @@ class AlertExample extends React.Component {
   render() {
     return (
       <View style={{flex: 1}}>
-        <Text style={{fontSize: 14}}>Click Button to call alert</Text>
+        <Text style={{fontSize: 14}}>Cszxdcfvgbhcall alert</Text>
         <View style={{marginTop: 10}} />
         <Button onPress={this._oneButton} title={'Alert with one button'} />
         <View style={{marginTop: 10}} />

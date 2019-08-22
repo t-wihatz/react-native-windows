@@ -26,7 +26,7 @@ namespace uwp {
 // Alert
 //
 
-const char *AlertModule::name = "RCTAlert";
+const char *AlertModule::name = "RCTAlertWindows";
 
 AlertModule::AlertModule() {}
 
