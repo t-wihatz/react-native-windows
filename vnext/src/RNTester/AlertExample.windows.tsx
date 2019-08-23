@@ -79,7 +79,7 @@ class AlertExample extends React.Component {
   render() {
     return (
       <View style={{flex: 1}}>
-        <Text style={{fontSize: 14}}>Cszxdcfvgbhcall alert</Text>
+        <Text style={{fontSize: 14}}>Call alert</Text>
         <View style={{marginTop: 10}} />
         <Button onPress={this._oneButton} title={'Alert with one button'} />
         <View style={{marginTop: 10}} />
